@@ -1,5 +1,5 @@
 # Feedback of Feedback for Baselines Game
-**Bold text is all my comments of your comments.**
+**Bold text is all my comments on your comments.**
 ## HW1 - travel time
 
 * functions should (almost) never print, they should simply return.
