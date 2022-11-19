@@ -1,4 +1,4 @@
-# Feedback of Feedback for Baselines Game
+# Feedback of Feedback (Change_Log) for Baselines Game
 **Bold text is all my comments on your comments.**
 ## HW1 - travel time
 
