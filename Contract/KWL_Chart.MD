@@ -1,7 +1,7 @@
 # KWL Chart
-| Topic  | Know   |	Want to Know |	Learned | Receipts |
-| ------- | ------- | ---------- | -------- | -------- |
-|Git                            | _ | _ | X |          |
+| Topic  | Know   |	Want to Know |	Learned | 
+| ------- | ------- | ---------- | -------- | 
+|Git                            | _ | _ | X | 
 |Linux Terminal                 | _ | X | _ |          |
 |markdown                       | _ | _ | X |          |
 |Object Oriented Python         | _ | _ | X |          |
