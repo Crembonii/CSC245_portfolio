@@ -21,7 +21,7 @@
 * Having everything scale with window sizes so changing the window doesn't break the game.
 * Win and lose screens that show the player their score.
 * Making a system to make all the bricks with only a number of rows and columns
-## New Features Learned
+## New knowledge learned
 * How to display text on screen in pygame.
 * How to create many varying objects with while and if statements (initializing the bricks.)
 * How to make an eventMap.
