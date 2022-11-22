@@ -2,7 +2,7 @@
 | Topic  | Know   |	Want to Know |	Learned | In final game| 
 | ------- | ------- | ---------- | -------- | -------- |
 |Git                            | _ | _ | X | Y |
-|Linux Terminal                 | _ | _ | X | N |
+|Linux Terminal                 | _ | _ | X | Y |
 |markdown                       | _ | _ | X | Y |
 |Object Oriented Python         | _ | _ | X | Y |
 |list comprehensions            | _ | _ | X | Y |
@@ -20,4 +20,4 @@
 |clients and servers            | _ | _ | X | N |
 |hitboxes as separate objects   | _ | _ | X | Y |
 
-# Receipts
+## Statement

@@ -18,9 +18,10 @@ This `README.md` at the top level of your repo should exist as a table of conten
 | Topic                             | Receipt  |
 | -------                           | -------- |
 |Git                                |[Flocking](Games/Flocking/Draft_Flocking/DevDiary.MD)|
+|Linux Terminal                     |[Flocking](Games/Flocking/Draft_Flocking/DevDiary.MD)|
 |markdown                           |[Breakout](Games/Breakout/Final_Breakout/DevDiary.MD)|
 |Object Oriented Python             |[Breakout](Games/Breakout/Final_Breakout/DevDiary.MD)|
-|list comprehensions                ||
+|list comprehensions                |[Roomba_Rampage](Games/Roomba_Rampage/cleaning-game/README.md)|
 |ssh and ssh keys                   |[Flocking](Games/Flocking/Draft_Flocking/DevDiary.MD)|
 |vector math                        |[Breakout](Games/Breakout/Final_Breakout/DevDiary.MD)|
 |Platformer physics (collision)     |[Sprites](Games/Sprites/Draft_Sprites/DevDiary.MD)|
@@ -29,7 +30,7 @@ This `README.md` at the top level of your repo should exist as a table of conten
 |Tree Search                        |[Path_Planning](Games/Path_Planning/Draft_Path_Planning/DevDiary.MD)|
 |sprites                            |[Sprites](Games/Sprites/Draft_Sprites/DevDiary.MD)|
 |sprite sheets and animation        |[Sprites](Games/Sprites/Draft_Sprites/DevDiary.MD)|
-|rotating sprites                   |[Final]|
+|rotating sprites                   |[Roomba_Rampage](Games/Roomba_Rampage/cleaning-game/README.md)|
 |pygame API                         |any/all projects|
 |clients and servers                |[Networking](Games/Networking/Draft_Networking/DevDiary.md)|
-|hitboxes as separate objects       |[Final]|
+|hitboxes as separate objects       |[Roomba_Rampage](Games/Roomba_Rampage/cleaning-game/README.md)|
