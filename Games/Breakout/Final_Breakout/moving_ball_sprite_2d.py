@@ -30,12 +30,20 @@ class MovingBall (Ball):
 
         self.v = Vector(float(xv),float(yv))
         self.up = up
+        self.pTimer = 0
+        self.ogColor = color
 
 
     def simulate (self, dt, width, height, pad):
         self.move (dt)
         self.bounce_wall (width, height)
         self.bounce_paddle (pad)
+        if self.pTimer > 0:
+            self.color = "green"
+            self.pTimer -= 1
+            print (self.pTimer)
+        else:
+            self.color = self.ogColor
 
 
     def move (self, dt):
@@ -141,23 +149,27 @@ class MovingBall (Ball):
         # Check distance and reverse velocity
         if dAB <= self.r:
             if self.p.x > pad.x and self.p.x < pad.x + pad.w:
-                self.p.y = pad.y - self.r
-                self.v.y *= -1
+                if self.pTimer == 0:
+                    self.p.y = pad.y - self.r
+                    self.v.y *= -1
                 return True
         if dBD <= self.r:
             if self.p.y > pad.y and self.p.y < pad.y + pad.h:
-                self.p.x = pad.x + pad.w + self.r
-                self.v.x *= -1
+                if self.pTimer == 0:
+                    self.p.x = pad.x + pad.w + self.r
+                    self.v.x *= -1
                 return True
         if dDC <= self.r:
             if self.p.x > pad.x and self.p.x < pad.x + pad.w:
-                self.p.y = pad.y + pad.h + self.r
-                self.v.y *= -1
+                if self.pTimer == 0:
+                    self.p.y = pad.y + pad.h + self.r
+                    self.v.y *= -1
                 return True
         if dCA <= self.r:
             if self.p.y > pad.y and self.p.y < pad.y + pad.h:
-                self.p.x = pad.x - self.r
-                self.v.x *= -1
+                if self.pTimer == 0:
+                    self.p.x = pad.x - self.r
+                    self.v.x *= -1
                 return True
         return False
 

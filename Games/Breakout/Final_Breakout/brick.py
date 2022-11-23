@@ -2,6 +2,7 @@
 ##
 
 import pygame
+import random
 #from rectangle import Rectangle
 
 class Brick:
@@ -13,6 +14,12 @@ class Brick:
         self.h = h
         self.color = color
         self.exists = exists
+        self.special = False
+        if random.randint(0,3) == 2:
+            self.special = True
+            self.color = "brown"
+
+
         
     def draw (self, window):
         if self.exists:

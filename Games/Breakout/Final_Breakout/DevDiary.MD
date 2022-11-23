@@ -9,9 +9,11 @@
 * A GameDev Diary (this document)
 ## Implemented Optional Features:
 * Splash and Game Over screens
-## Unimplemented Optional Features:
-* Power ups / Negative effects
 * Multiple balls
+    * It appears after you hit half the bricks
+* Power ups / Negative effects
+    * Certain bricks make the ball green and pass through bricks without bouncing
+## Unimplemented Optional Features:
 * Multiple game modes
 * Additional paddles
 * More advanced physics / collisions
@@ -21,6 +23,7 @@
 * Having everything scale with window sizes so changing the window doesn't break the game.
 * Win and lose screens that show the player their score.
 * Making a system to make all the bricks with only a number of rows and columns
+* Used a keymap instead of checking keys the normal way.
 ## New knowledge learned
 * How to display text on screen in pygame.
 * How to create many varying objects with while and if statements (initializing the bricks.)
